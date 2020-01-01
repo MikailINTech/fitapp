@@ -11,7 +11,7 @@
 9-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml
 10
 11    <application
-11-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:5:5-19:19
+11-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:5:5-38:19
 12        android:allowBackup="true"
 12-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:6:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -42,6 +42,36 @@
 25-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:16:27-74
 26            </intent-filter>
 27        </activity>
-28    </application>
-29
-30</manifest>
+28        <activity
+28-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:19:9-27:20
+29            android:name="com.example.fitapp.dataActivity"
+29-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:20:9-55
+30            android:parentActivityName="com.example.fitapp.MainActivity"
+30-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:21:9-51
+31            android:screenOrientation="portrait" >
+31-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:22:9-45
+32            <meta-data
+32-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:23:9-25:63
+33                android:name="android.support.PARENT_ACTIVITY"
+33-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:24:13-59
+34                android:value="com.example.fitapp.MainActivity" />
+34-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:25:13-60
+35        </activity>
+36        <activity
+36-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:28:9-36:20
+37            android:name="com.example.fitapp.exerciceActivity"
+37-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:29:9-59
+38            android:parentActivityName="com.example.fitapp.MainActivity"
+38-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:30:9-51
+39            android:screenOrientation="portrait" >
+39-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:31:9-45
+40            <meta-data
+40-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:23:9-25:63
+41                android:name="android.support.PARENT_ACTIVITY"
+41-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:24:13-59
+42                android:value="com.example.fitapp.MainActivity" />
+42-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:25:13-60
+43        </activity>
+44    </application>
+45
+46</manifest>
