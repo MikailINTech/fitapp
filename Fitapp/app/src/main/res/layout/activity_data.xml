@@ -14,9 +14,9 @@
             android:id="@+id/age"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="195dp"
-            android:layout_marginLeft="195dp"
-            android:layout_marginTop="100dp"
+            android:layout_marginStart="130dp"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="96dp"
             android:text=""
             android:textSize="25dp"
             app:layout_constraintStart_toStartOf="parent"
@@ -29,7 +29,7 @@
             android:layout_marginStart="45dp"
             android:layout_marginLeft="45dp"
             android:layout_marginTop="100dp"
-            android:text="Age : "
+            android:text="Age: "
             android:textSize="30dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -37,9 +37,9 @@
             android:id="@+id/poids"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="195dp"
-            android:layout_marginLeft="195dp"
-            android:layout_marginTop="150dp"
+            android:layout_marginStart="130dp"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="146dp"
             android:text=""
             android:textSize="25dp"
             app:layout_constraintStart_toStartOf="parent"
@@ -51,10 +51,65 @@
             android:layout_marginStart="45dp"
             android:layout_marginLeft="45dp"
             android:layout_marginTop="150dp"
-            android:text="Poids : "
+            android:text="Poids: "
             android:textSize="30dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
+        <EditText
+            android:id="@+id/sexe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="130dp"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="196dp"
+            android:text=""
+            android:textSize="25dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"></EditText>
+        <TextView
+            android:id="@+id/sexetext"
+            android:layout_width="150dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="45dp"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="200dp"
+            android:text="Sexe: "
+            android:textSize="30dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+        <EditText
+            android:id="@+id/objectif"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="280dp"
+            android:layout_marginLeft="280dp"
+            android:layout_marginTop="246dp"
+            android:text=""
+            android:textSize="25dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"></EditText>
+        <TextView
+            android:id="@+id/objectiftext"
+            android:layout_width="250dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="45dp"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="250dp"
+            android:text="Objectif de poids: "
+            android:textSize="30dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <DatePicker
+            android:datePickerMode="calendar"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_marginStart="45dp"
+            android:layout_marginTop="300dp"
+            android:layout_marginLeft="150dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" ></DatePicker>
+
 
 
 
