@@ -8,7 +8,8 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:layout_gravity="center">
 
         <EditText
             android:id="@+id/age"
@@ -16,9 +17,9 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="130dp"
             android:layout_marginLeft="130dp"
-            android:layout_marginTop="96dp"
+            android:layout_marginTop="76dp"
             android:text=""
-            android:textSize="25dp"
+            android:textSize="20dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"></EditText>
 
@@ -28,9 +29,9 @@
             android:layout_height="56dp"
             android:layout_marginStart="45dp"
             android:layout_marginLeft="45dp"
-            android:layout_marginTop="100dp"
+            android:layout_marginTop="80dp"
             android:text="Age: "
-            android:textSize="30dp"
+            android:textSize="25dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
         <EditText
@@ -39,9 +40,9 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="130dp"
             android:layout_marginLeft="130dp"
-            android:layout_marginTop="146dp"
+            android:layout_marginTop="126dp"
             android:text=""
-            android:textSize="25dp"
+            android:textSize="20dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"></EditText>
         <TextView
@@ -50,9 +51,9 @@
             android:layout_height="56dp"
             android:layout_marginStart="45dp"
             android:layout_marginLeft="45dp"
-            android:layout_marginTop="150dp"
+            android:layout_marginTop="130dp"
             android:text="Poids: "
-            android:textSize="30dp"
+            android:textSize="25dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
         <EditText
@@ -61,9 +62,9 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="130dp"
             android:layout_marginLeft="130dp"
-            android:layout_marginTop="196dp"
+            android:layout_marginTop="176dp"
             android:text=""
-            android:textSize="25dp"
+            android:textSize="20dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"></EditText>
         <TextView
@@ -72,9 +73,9 @@
             android:layout_height="56dp"
             android:layout_marginStart="45dp"
             android:layout_marginLeft="45dp"
-            android:layout_marginTop="200dp"
+            android:layout_marginTop="180dp"
             android:text="Sexe: "
-            android:textSize="30dp"
+            android:textSize="25dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
         <EditText
@@ -83,9 +84,9 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="280dp"
             android:layout_marginLeft="280dp"
-            android:layout_marginTop="246dp"
+            android:layout_marginTop="226dp"
             android:text=""
-            android:textSize="25dp"
+            android:textSize="20dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"></EditText>
         <TextView
@@ -94,18 +95,18 @@
             android:layout_height="56dp"
             android:layout_marginStart="45dp"
             android:layout_marginLeft="45dp"
-            android:layout_marginTop="250dp"
+            android:layout_marginTop="230dp"
             android:text="Objectif de poids: "
-            android:textSize="30dp"
+            android:textSize="25dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
         <DatePicker
             android:datePickerMode="calendar"
             android:layout_width="wrap_content"
-            android:layout_height="200dp"
+            android:layout_height="280dp"
             android:layout_marginStart="45dp"
-            android:layout_marginTop="300dp"
+            android:layout_marginTop="265dp"
             android:layout_marginLeft="150dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" ></DatePicker>
