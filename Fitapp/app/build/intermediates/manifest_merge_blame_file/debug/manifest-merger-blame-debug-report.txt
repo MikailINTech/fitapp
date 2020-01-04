@@ -10,68 +10,72 @@
 9        android:targetSdkVersion="29" />
 9-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml
 10
-11    <application
-11-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:5:5-38:19
-12        android:allowBackup="true"
-12-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:6:9-35
-13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-13-->[androidx.core:core:1.0.1] /home/mikail/.gradle/caches/transforms-2/files-2.1/46da25c3e2ae6308b2227b660caa604d/core-1.0.1/AndroidManifest.xml:22:18-86
-14        android:debuggable="true"
-15        android:icon="@mipmap/ic_launcher"
-15-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:7:9-43
-16        android:label="@string/app_name"
-16-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:8:9-41
-17        android:roundIcon="@mipmap/ic_launcher_round"
-17-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:9:9-54
-18        android:supportsRtl="true"
-18-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:10:9-35
-19        android:testOnly="true"
-20        android:theme="@style/AppTheme" >
-20-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:11:9-40
-21        <activity android:name="com.example.fitapp.MainActivity" >
-21-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:12:9-18:20
-21-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:12:19-47
-22            <intent-filter>
-22-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:13:13-17:29
-23                <action android:name="android.intent.action.MAIN" />
-23-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:14:17-69
-23-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:14:25-66
-24
-25                <category android:name="android.intent.category.LAUNCHER" />
-25-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:16:17-77
-25-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:16:27-74
-26            </intent-filter>
-27        </activity>
-28        <activity
-28-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:19:9-27:20
-29            android:name="com.example.fitapp.dataActivity"
-29-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:20:9-55
-30            android:parentActivityName="com.example.fitapp.MainActivity"
-30-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:21:9-51
-31            android:screenOrientation="portrait" >
-31-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:22:9-45
-32            <meta-data
-32-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:23:9-25:63
-33                android:name="android.support.PARENT_ACTIVITY"
-33-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:24:13-59
-34                android:value="com.example.fitapp.MainActivity" />
-34-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:25:13-60
-35        </activity>
-36        <activity
-36-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:28:9-36:20
-37            android:name="com.example.fitapp.exerciceActivity"
-37-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:29:9-59
-38            android:parentActivityName="com.example.fitapp.MainActivity"
-38-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:30:9-51
-39            android:screenOrientation="portrait" >
-39-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:31:9-45
-40            <meta-data
-40-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:23:9-25:63
-41                android:name="android.support.PARENT_ACTIVITY"
-41-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:24:13-59
-42                android:value="com.example.fitapp.MainActivity" />
-42-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:25:13-60
-43        </activity>
-44    </application>
-45
-46</manifest>
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:5:5-66
+11-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:5:22-64
+12
+13    <application
+13-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:7:5-40:19
+14        android:allowBackup="true"
+14-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:8:9-35
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.0.1] /home/mikail/.gradle/caches/transforms-2/files-2.1/46da25c3e2ae6308b2227b660caa604d/core-1.0.1/AndroidManifest.xml:22:18-86
+16        android:debuggable="true"
+17        android:icon="@mipmap/ic_launcher"
+17-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:9:9-43
+18        android:label="@string/app_name"
+18-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:10:9-41
+19        android:roundIcon="@mipmap/ic_launcher_round"
+19-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:11:9-54
+20        android:supportsRtl="true"
+20-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:12:9-35
+21        android:testOnly="true"
+22        android:theme="@style/AppTheme" >
+22-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:13:9-40
+23        <activity android:name="com.example.fitapp.MainActivity" >
+23-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:14:9-20:20
+23-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:14:19-47
+24            <intent-filter>
+24-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:15:13-19:29
+25                <action android:name="android.intent.action.MAIN" />
+25-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:16:17-69
+25-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:16:25-66
+26
+27                <category android:name="android.intent.category.LAUNCHER" />
+27-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:18:17-77
+27-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:18:27-74
+28            </intent-filter>
+29        </activity>
+30        <activity
+30-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:21:9-29:20
+31            android:name="com.example.fitapp.dataActivity"
+31-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:22:9-55
+32            android:parentActivityName="com.example.fitapp.MainActivity"
+32-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:23:9-51
+33            android:screenOrientation="portrait" >
+33-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:24:9-45
+34            <meta-data
+34-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:25:9-27:63
+35                android:name="android.support.PARENT_ACTIVITY"
+35-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:26:13-59
+36                android:value="com.example.fitapp.MainActivity" />
+36-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:27:13-60
+37        </activity>
+38        <activity
+38-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:30:9-38:20
+39            android:name="com.example.fitapp.exerciceActivity"
+39-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:31:9-59
+40            android:parentActivityName="com.example.fitapp.MainActivity"
+40-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:32:9-51
+41            android:screenOrientation="portrait" >
+41-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:33:9-45
+42            <meta-data
+42-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:25:9-27:63
+43                android:name="android.support.PARENT_ACTIVITY"
+43-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:26:13-59
+44                android:value="com.example.fitapp.MainActivity" />
+44-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:27:13-60
+45        </activity>
+46    </application>
+47
+48</manifest>
