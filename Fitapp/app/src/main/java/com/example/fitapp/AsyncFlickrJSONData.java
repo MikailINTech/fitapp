@@ -69,11 +69,11 @@ public class AsyncFlickrJSONData extends AsyncTask<String, Void, JSONObject> {
         list.setAdapter(tableau);
 
         try {
-            JSONArray items = s.getJSONArray("items");
+            JSONArray items = s.getJSONArray("image_results");
             for (int i = 0; i<items.length(); i++)
             {
                 JSONObject flickr_entry = items.getJSONObject(i);
-                String urlmedia = flickr_entry.getJSONObject("media").getString("m");
+                String urlmedia = flickr_entry.getString("sourceUrl");
                 Log.i("CIO", "URL media: " + urlmedia);
 
                 // Downloading image
@@ -98,7 +98,7 @@ public class AsyncFlickrJSONData extends AsyncTask<String, Void, JSONObject> {
         is.close();
 
         // Extracting the JSON object from the String
-        String jsonextracted = sb.substring("jsonFlickrFeed(".length(), sb.length() - 1);
+        String jsonextracted = sb.toString();
         //Log.i("CIO", jsonextracted);
         return jsonextracted;
     }

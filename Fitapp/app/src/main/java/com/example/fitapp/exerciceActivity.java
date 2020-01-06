@@ -10,6 +10,6 @@ public class exerciceActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_exercice);
         AsyncFlickrJSONData task = new AsyncFlickrJSONData(exerciceActivity.this);
-        task.execute("https://www.flickr.com/services/feeds/photos_public.gne?tags=luke_skywalker&format=json");
+        task.execute("https://app.zenserp.com/api/v2/search?q=muscle+up&hl=en&gl=US&location=United%20States&search_engine=google.com&tbm=isch&apikey=ab1f1ce0-3010-11ea-bdea-9958949cd03d");
     }
 }
