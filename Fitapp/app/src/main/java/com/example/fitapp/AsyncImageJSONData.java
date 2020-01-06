@@ -20,11 +20,11 @@ import java.net.MalformedURLException;
 import java.net.URL;
 
 
-public class AsyncFlickrJSONData extends AsyncTask<String, Void, JSONObject> {
+public class AsyncImageJSONData extends AsyncTask<String, Void, JSONObject> {
 
     private AppCompatActivity myActivity;
 
-    public AsyncFlickrJSONData(exerciceActivity mainActivity) {
+    public AsyncImageJSONData(exerciceActivity mainActivity) {
         myActivity = mainActivity;
     }
 
@@ -70,10 +70,10 @@ public class AsyncFlickrJSONData extends AsyncTask<String, Void, JSONObject> {
 
         try {
             JSONArray items = s.getJSONArray("image_results");
-            for (int i = 0; i<items.length(); i++)
+            for (int i = 0; i<3; i++)
             {
-                JSONObject flickr_entry = items.getJSONObject(i);
-                String urlmedia = flickr_entry.getString("sourceUrl");
+                JSONObject image_entry = items.getJSONObject(i);
+                String urlmedia = image_entry.getString("sourceUrl");
                 Log.i("CIO", "URL media: " + urlmedia);
 
                 // Downloading image
