@@ -13,97 +13,141 @@
 11    <uses-permission android:name="android.permission.INTERNET" />
 11-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:5:5-66
 11-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:5:22-64
-12
-13    <application
-13-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:7:5-48:19
-14        android:allowBackup="true"
-14-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:8:9-35
-15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-15-->[androidx.core:core:1.1.0] /home/mikail/.gradle/caches/transforms-2/files-2.1/7f6c41cc2a14c0fbaa8d0166c17dc544/core-1.1.0/AndroidManifest.xml:24:18-86
-16        android:debuggable="true"
-17        android:icon="@mipmap/ic_launcher"
-17-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:9:9-43
-18        android:label="@string/app_name"
-18-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:10:9-41
-19        android:roundIcon="@mipmap/ic_launcher_round"
-19-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:11:9-54
-20        android:supportsRtl="true"
-20-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:12:9-35
-21        android:testOnly="true"
-22        android:theme="@style/AppTheme" >
-22-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:13:9-40
-23        <meta-data
-23-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:14:9-17:26
-24            android:name="com.google.android.gms.fitness.data"
-24-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:15:13-63
-25            android:value="@integer/google_play_services_version" />
-25-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:16:13-66
-26        <meta-data
-26-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:18:9-21:26
-27            android:name="com.google.android.geo.API_KEY"
-27-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:19:13-58
-28            android:value="AIzaSyCE8G_gNQ-tNtUHlmC8M5IS-1oxgdYH5Ow" />
-28-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:20:13-68
-29
-30        <activity android:name="com.example.fitapp.MainActivity" >
-30-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:22:9-28:20
-30-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:22:19-47
-31            <intent-filter>
-31-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:23:13-27:29
-32                <action android:name="android.intent.action.MAIN" />
-32-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:24:17-69
-32-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:24:25-66
-33
-34                <category android:name="android.intent.category.LAUNCHER" />
-34-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:26:17-77
-34-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:26:27-74
-35            </intent-filter>
-36        </activity>
-37        <activity
-37-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:29:9-37:20
-38            android:name="com.example.fitapp.dataActivity"
-38-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:30:9-55
-39            android:parentActivityName="com.example.fitapp.MainActivity"
-39-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:31:9-51
-40            android:screenOrientation="portrait" >
-40-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:32:9-45
-41            <meta-data
-41-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:33:9-35:63
-42                android:name="android.support.PARENT_ACTIVITY"
-42-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:34:13-59
-43                android:value="com.example.fitapp.MainActivity" />
-43-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:35:13-60
-44        </activity>
-45        <activity
-45-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:38:9-46:20
-46            android:name="com.example.fitapp.exerciceActivity"
-46-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:39:9-59
-47            android:parentActivityName="com.example.fitapp.MainActivity"
-47-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:40:9-51
-48            android:screenOrientation="portrait" >
-48-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:41:9-45
-49            <meta-data
-49-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:33:9-35:63
-50                android:name="android.support.PARENT_ACTIVITY"
-50-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:34:13-59
-51                android:value="com.example.fitapp.MainActivity" />
-51-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:35:13-60
-52        </activity>
-53        <activity
-53-->[com.google.android.gms:play-services-base:17.1.0] /home/mikail/.gradle/caches/transforms-2/files-2.1/983857c84432fce3ce219ec29d056c01/play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
-54            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-54-->[com.google.android.gms:play-services-base:17.1.0] /home/mikail/.gradle/caches/transforms-2/files-2.1/983857c84432fce3ce219ec29d056c01/play-services-base-17.1.0/AndroidManifest.xml:24:13-79
-55            android:exported="false"
-55-->[com.google.android.gms:play-services-base:17.1.0] /home/mikail/.gradle/caches/transforms-2/files-2.1/983857c84432fce3ce219ec29d056c01/play-services-base-17.1.0/AndroidManifest.xml:25:13-37
-56            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-56-->[com.google.android.gms:play-services-base:17.1.0] /home/mikail/.gradle/caches/transforms-2/files-2.1/983857c84432fce3ce219ec29d056c01/play-services-base-17.1.0/AndroidManifest.xml:26:13-72
-57
-58        <meta-data
-58-->[com.google.android.gms:play-services-basement:17.0.0] /home/mikail/.gradle/caches/transforms-2/files-2.1/b672a6c85aad121d45b17f6d11f42b5e/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
-59            android:name="com.google.android.gms.version"
-59-->[com.google.android.gms:play-services-basement:17.0.0] /home/mikail/.gradle/caches/transforms-2/files-2.1/b672a6c85aad121d45b17f6d11f42b5e/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
-60            android:value="@integer/google_play_services_version" />
-60-->[com.google.android.gms:play-services-basement:17.0.0] /home/mikail/.gradle/caches/transforms-2/files-2.1/b672a6c85aad121d45b17f6d11f42b5e/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
-61    </application>
-62
-63</manifest>
+12    <uses-permission android:name="android.permission.ACTIVITY_RECOGNITION" />
+12-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:6:5-78
+12-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:6:22-76
+13    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+13-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:7:5-79
+13-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:7:22-76
+14
+15    <application
+15-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:10:5-60:19
+16        android:allowBackup="true"
+16-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:11:9-35
+17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+17-->[androidx.core:core:1.1.0] /home/mikail/.gradle/caches/transforms-2/files-2.1/7f6c41cc2a14c0fbaa8d0166c17dc544/core-1.1.0/AndroidManifest.xml:24:18-86
+18        android:debuggable="true"
+19        android:icon="@mipmap/ic_launcher"
+19-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:12:9-43
+20        android:label="@string/app_name"
+20-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:13:9-41
+21        android:roundIcon="@mipmap/ic_launcher_round"
+21-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:14:9-54
+22        android:supportsRtl="true"
+22-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:15:9-35
+23        android:testOnly="true"
+24        android:theme="@style/AppTheme" >
+24-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:16:9-40
+25        <meta-data
+25-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:17:9-20:26
+26            android:name="com.google.android.gms.fitness"
+26-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:18:13-58
+27            android:value="@integer/google_play_services_version" />
+27-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:19:13-66
+28        <meta-data
+28-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:21:9-24:26
+29            android:name="com.google.android.geo.API_KEY"
+29-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:22:13-58
+30            android:value="AIzaSyCE8G_gNQ-tNtUHlmC8M5IS-1oxgdYH5Ow" />
+30-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:23:13-68
+31
+32        <activity android:name="com.example.fitapp.MainActivity" >
+32-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:25:9-31:20
+32-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:25:19-47
+33            <intent-filter>
+33-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:26:13-30:29
+34                <action android:name="android.intent.action.MAIN" />
+34-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:27:17-69
+34-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:27:25-66
+35
+36                <category android:name="android.intent.category.LAUNCHER" />
+36-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:29:17-77
+36-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:29:27-74
+37            </intent-filter>
+38        </activity>
+39        <activity
+39-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:32:9-40:20
+40            android:name="com.example.fitapp.googleFitActivity"
+40-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:33:13-64
+41            android:parentActivityName="com.example.fitapp.MainActivity"
+41-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:34:13-55
+42            android:screenOrientation="portrait" >
+42-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:35:13-49
+43            <meta-data
+43-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:36:13-38:67
+44                android:name="android.support.PARENT_ACTIVITY"
+44-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:37:17-63
+45                android:value="com.example.fitapp.MainActivity" />
+45-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:38:17-64
+46        </activity>
+47        <activity
+47-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:41:9-49:20
+48            android:name="com.example.fitapp.dataActivity"
+48-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:42:9-55
+49            android:parentActivityName="com.example.fitapp.MainActivity"
+49-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:43:9-51
+50            android:screenOrientation="portrait" >
+50-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:44:9-45
+51            <meta-data
+51-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:36:13-38:67
+52                android:name="android.support.PARENT_ACTIVITY"
+52-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:37:17-63
+53                android:value="com.example.fitapp.MainActivity" />
+53-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:38:17-64
+54        </activity>
+55        <activity
+55-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:50:9-58:20
+56            android:name="com.example.fitapp.exerciceActivity"
+56-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:51:9-59
+57            android:parentActivityName="com.example.fitapp.MainActivity"
+57-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:52:9-51
+58            android:screenOrientation="portrait" >
+58-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:53:9-45
+59            <meta-data
+59-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:36:13-38:67
+60                android:name="android.support.PARENT_ACTIVITY"
+60-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:37:17-63
+61                android:value="com.example.fitapp.MainActivity" />
+61-->/home/mikail/AndroidStudioProjects/fitapp/Fitapp/app/src/main/AndroidManifest.xml:38:17-64
+62        </activity>
+63        <activity
+63-->[com.google.android.gms:play-services-auth:17.0.0] /home/mikail/.gradle/caches/transforms-2/files-2.1/2a9cf3624679babbc8bfca7f798131df/play-services-auth-17.0.0/AndroidManifest.xml:23:9-27:75
+64            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+64-->[com.google.android.gms:play-services-auth:17.0.0] /home/mikail/.gradle/caches/transforms-2/files-2.1/2a9cf3624679babbc8bfca7f798131df/play-services-auth-17.0.0/AndroidManifest.xml:24:13-93
+65            android:excludeFromRecents="true"
+65-->[com.google.android.gms:play-services-auth:17.0.0] /home/mikail/.gradle/caches/transforms-2/files-2.1/2a9cf3624679babbc8bfca7f798131df/play-services-auth-17.0.0/AndroidManifest.xml:25:13-46
+66            android:exported="false"
+66-->[com.google.android.gms:play-services-auth:17.0.0] /home/mikail/.gradle/caches/transforms-2/files-2.1/2a9cf3624679babbc8bfca7f798131df/play-services-auth-17.0.0/AndroidManifest.xml:26:13-37
+67            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+67-->[com.google.android.gms:play-services-auth:17.0.0] /home/mikail/.gradle/caches/transforms-2/files-2.1/2a9cf3624679babbc8bfca7f798131df/play-services-auth-17.0.0/AndroidManifest.xml:27:13-72
+68        <!--
+69            Service handling Google Sign-In user revocation. For apps that do not integrate with
+70            Google Sign-In, this service will never be started.
+71        -->
+72        <service
+72-->[com.google.android.gms:play-services-auth:17.0.0] /home/mikail/.gradle/caches/transforms-2/files-2.1/2a9cf3624679babbc8bfca7f798131df/play-services-auth-17.0.0/AndroidManifest.xml:33:9-36:110
+73            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+73-->[com.google.android.gms:play-services-auth:17.0.0] /home/mikail/.gradle/caches/transforms-2/files-2.1/2a9cf3624679babbc8bfca7f798131df/play-services-auth-17.0.0/AndroidManifest.xml:34:13-89
+74            android:exported="true"
+74-->[com.google.android.gms:play-services-auth:17.0.0] /home/mikail/.gradle/caches/transforms-2/files-2.1/2a9cf3624679babbc8bfca7f798131df/play-services-auth-17.0.0/AndroidManifest.xml:35:13-36
+75            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+75-->[com.google.android.gms:play-services-auth:17.0.0] /home/mikail/.gradle/caches/transforms-2/files-2.1/2a9cf3624679babbc8bfca7f798131df/play-services-auth-17.0.0/AndroidManifest.xml:36:13-107
+76
+77        <activity
+77-->[com.google.android.gms:play-services-base:17.1.0] /home/mikail/.gradle/caches/transforms-2/files-2.1/983857c84432fce3ce219ec29d056c01/play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
+78            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+78-->[com.google.android.gms:play-services-base:17.1.0] /home/mikail/.gradle/caches/transforms-2/files-2.1/983857c84432fce3ce219ec29d056c01/play-services-base-17.1.0/AndroidManifest.xml:24:13-79
+79            android:exported="false"
+79-->[com.google.android.gms:play-services-base:17.1.0] /home/mikail/.gradle/caches/transforms-2/files-2.1/983857c84432fce3ce219ec29d056c01/play-services-base-17.1.0/AndroidManifest.xml:25:13-37
+80            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+80-->[com.google.android.gms:play-services-base:17.1.0] /home/mikail/.gradle/caches/transforms-2/files-2.1/983857c84432fce3ce219ec29d056c01/play-services-base-17.1.0/AndroidManifest.xml:26:13-72
+81
+82        <meta-data
+82-->[com.google.android.gms:play-services-basement:17.0.0] /home/mikail/.gradle/caches/transforms-2/files-2.1/b672a6c85aad121d45b17f6d11f42b5e/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+83            android:name="com.google.android.gms.version"
+83-->[com.google.android.gms:play-services-basement:17.0.0] /home/mikail/.gradle/caches/transforms-2/files-2.1/b672a6c85aad121d45b17f6d11f42b5e/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+84            android:value="@integer/google_play_services_version" />
+84-->[com.google.android.gms:play-services-basement:17.0.0] /home/mikail/.gradle/caches/transforms-2/files-2.1/b672a6c85aad121d45b17f6d11f42b5e/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+85    </application>
+86
+87</manifest>
